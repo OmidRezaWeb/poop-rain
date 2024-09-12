@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    height: 100vh;
+}
+
+
+.poop {
+    position: fixed;
+    top: -5vh;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+    font-size: 5rem;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(105vh);
+    }
+}
